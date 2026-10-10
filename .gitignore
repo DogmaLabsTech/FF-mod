@@ -1,0 +1,7 @@
+build/
+*.pak
+*.utoc
+*.ucas
+.venv/
+fal_manifest.jsonl
+.claude/settings.local.json
