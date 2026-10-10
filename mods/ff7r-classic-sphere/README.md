@@ -9,14 +9,16 @@ Game: FINAL FANTASY VII REMAKE INTERGRADE (PC, Steam app 1462040), Unreal Engine
 2. Characters grow on an FF10-style Sphere Grid instead of level-ups.
 
 ## Folders
-- `battle/`: part A. Turn-based mods already exist on Nexus (Classic Combat - Wait Mode ATB #369, Turn Based
-  Combat #2192, True Wait Mode). Play them first. Build on one only if its permissions allow; otherwise make our own pak.
+- `battle/`: part A. Turn-based mods already exist on Nexus (Turn Based Combat #2192, built on Classic Combat
+  - Wait Mode ATB #369). Play them first. Build on one only if its permissions allow; otherwise make our own pak.
 - `sphere-grid/`: part B. Nothing like it exists; the biggest and riskiest part. `design/` holds the board
   layout, node types and sphere items before any code.
 - `shared/`: stat and ability ID tables both parts use.
 - `assets/`: our own art (grid UI, sphere icons). Never game files.
 - `build/`: packed output, not kept.
 - `showcase/`: clips and screenshots.
+
+Desk research for recon: `RECON-NOTES.md`.
 
 ## Rules
 - Extracted game files and decompiled code go in `~/ff7r-decomp/`, never in this folder.

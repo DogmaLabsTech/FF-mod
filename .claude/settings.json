@@ -1,4 +1,25 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(um --help)",
+      "Bash(um --version)",
+      "Bash(um scan:*)",
+      "Bash(um kb search:*)",
+      "Bash(um kb show:*)",
+      "Bash(um backup create:*)",
+      "Bash(um backup list:*)",
+      "Bash(um backup diff:*)",
+      "Bash(um publish check:*)",
+      "Bash(um win ps:*)",
+      "Bash(universal-modder/bin/um --help)",
+      "Bash(universal-modder/bin/um --version)",
+      "Bash(universal-modder/bin/um scan:*)",
+      "Bash(universal-modder/bin/um kb search:*)",
+      "Bash(universal-modder/bin/um kb show:*)",
+      "Bash(git submodule update --init)",
+      "Bash(git status:*)"
+    ]
+  },
   "hooks": {
     "SessionStart": [
       {

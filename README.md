@@ -13,14 +13,15 @@ built by your own Claude Code with [Universal Modder](https://github.com/rehan-r
 
 ## Start
 ```bash
-git clone --recursive https://github.com/DogmaLabsTech/FF-mod.git
+git -c core.autocrlf=false clone --recursive https://github.com/DogmaLabsTech/FF-mod.git
 cd FF-mod
 claude
 ```
-Then tell it: **"Start the FF7 Remake mod."** It reads the plan in `mods/ff7r-classic-sphere/` and begins
+Run it in Git Bash or PowerShell. The `-c core.autocrlf=false` part keeps the toolkit's scripts working on
+Windows. Then type **`/start`** (or just say "Start the FF7 Remake mod"). It reads the plan in `mods/ff7r-classic-sphere/` and begins
 with recon: scanning your install, trying the existing turn-based mods, and pulling the game's data.
 
-Forgot `--recursive`? Claude notices and fixes it. Or run `git submodule update --init` yourself.
+Cloned without those flags? `/start` notices and fixes it.
 
 ## The plan
 See [mods/ff7r-classic-sphere/README.md](mods/ff7r-classic-sphere/README.md). In short:
