@@ -5,3 +5,8 @@ build/
 .venv/
 fal_manifest.jsonl
 .claude/settings.local.json
+
+# Local secrets: never commit env files (keep the example template)
+.env
+.env.*
+!.env.example
