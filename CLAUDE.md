@@ -3,6 +3,8 @@
 A game-modding repo. The person you're working with owns the game and plays on their own PC. You do the
 modding. Universal Modder (the toolkit) is installed for this repo only.
 
+@AGENTS.md
+
 @universal-modder/AGENTS.md
 
 ## First session
